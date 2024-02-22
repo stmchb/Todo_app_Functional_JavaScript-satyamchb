@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+#heading{
+   text-align: center;
+}
+
+#input-box{
+  align-items: center;
+  height: 30px;
+  margin-left: 30%;  
+  
+}
+.date-box{
+  height: 32px;
+}
+.todo-item{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  align-items: center;
+}
+#para-text{
+  display: flex;
+  justify-content: center;
+  margin-left: 400px;
+}
+#text-area{
+  margin-left: -40px;
+}
+.button{
+  background-color: rgba(5, 119, 19);
+  padding: 10px 35px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#del-button{
+  background-color: rgba(87, 4, 4);
+  padding: 15px 0px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+ 
